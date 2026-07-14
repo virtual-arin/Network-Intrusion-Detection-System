@@ -21,7 +21,7 @@ scaler = joblib.load("models/scaler.pkl")
 # -----------------------------
 # Title
 # -----------------------------
-st.title("🔐 Network Intrusion Detection System using ANN")
+st.title("🔐 Network Intrusion Detection System")
 
 st.write("""
 Upload a CSV file containing the **52 network traffic features**.
